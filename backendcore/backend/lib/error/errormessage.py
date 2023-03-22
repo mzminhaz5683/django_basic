@@ -1,0 +1,10 @@
+WEAK_PASSWORD_ERROR = "Password must contain a number, a lowercase," + \
+	" an uppercase and a special character"
+EMAIL_EXISTS_ERROR = "Email already exists"
+INVALID_EMAIL_OR_PASSWORD_ERROR = "Invalid email or password"
+DISCORD_PASSWORD_ERROR = "Password does not match with the confirm password"
+INTERNAL_SERVER_ERROR = "Internal server error"
+INVALID_TOKEN_ERROR = "Invalid token"
+INVALID_JSON_FORMAT_ERROR = "Invalid request"
+METHOD_NOT_ALLOWED_ERROR = " method not allowed"
+VALUE_MUST_BE_NON_NEGATIVE_ERROR = "Value must be non negative"
