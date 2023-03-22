@@ -4,7 +4,10 @@ from django.http import JsonResponse
 logger = logging.getLogger('django')
 
 def log(request):
-	response = {'Hello test'}
+	response = {
+		'Web is running successfully': 'showing view of testapp',
+	}
+
 	print("log: for general cases. But won't work sometime, when using docker")
 	logger.info('log: for success message')
 	logger.warning('log: for warning message')
