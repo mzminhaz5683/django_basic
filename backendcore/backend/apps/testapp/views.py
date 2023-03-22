@@ -4,11 +4,7 @@ from django.http import JsonResponse
 logger = logging.getLogger('django')
 
 def log(request):
-	response = {
-		'For postman request calls, check': 'backend/apps/testapi/urls.py',
-		 'To change the server ip' : 'update backendcore/runlocal.sh file target ip. (Default: 0.0.0.0:8000)'
-	}
-
+	response = {'Hello test'}
 	print("log: for general cases. But won't work sometime, when using docker")
 	logger.info('log: for success message')
 	logger.warning('log: for warning message')
